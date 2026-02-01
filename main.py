@@ -11,7 +11,10 @@ def main():
     scraper = TableScraper()
     
     # Пример 1: Извлечение первой таблицы
-    url = "https://fantasy-h2h.ru/analytics/fantasy_team_players/seria_a_2025"  # Замени на реальный URL
+    url = "https://fantasy-h2h.ru/analytics/fantasy_team_players/epl_2025" 
+
+    # https://fantasy-h2h.ru/analytics/fantasy_team_players/seria_a_2025
+    # https://fantasy-h2h.ru/analytics/fantasy_team_players/epl_2025
     
     print("Загрузка таблицы...")
     df = scraper.extract_first_table(url)
